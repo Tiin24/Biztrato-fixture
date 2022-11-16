@@ -8,7 +8,6 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Login/>}/>
       </Routes>
     </BrowserRouter>
   );
