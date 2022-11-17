@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import './App.css';
 import Landing from "./Components/Landing/Landing";
-import F_grupos from "./Components/Face de Grupos/F_grupos";
-import F_final from "./Components/Face Final/F_final";
+import F_grupos from "./Components/Fase de Grupos/F_grupos";
+import F_final from "./Components/Fase Final/F_final";
 import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
