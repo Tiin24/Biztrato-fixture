@@ -7,17 +7,21 @@ import ListGroup from "react-bootstrap/ListGroup";
 
 function F_grupos() {
   return (
+    <div className="f_grupos-container">
 
-    <Tabs
+    <Tabs 
       defaultActiveKey="profile"
       id="uncontrolled-tab-example"
       className="mb-3"
     >
       <Tab eventKey="Grupo A" title="Grupo A">
-        <Card className="Card-matches">
+        <Card className="Card-matches" style={{ borderColor: "#28040E" }}>
           <Card.Header className="Card-title">PARTIDOS</Card.Header>
           <ListGroup variant="flush">
             <ListGroup.Item className="Card-line">
+              <div className="Date-cont">
+                <p className="Date">20 de Nov. 13:00 hs.</p>
+              </div>
             <div className="Flag-cont">
                 <img
                   className="Flag"
@@ -39,6 +43,9 @@ function F_grupos() {
               </div>
             </ListGroup.Item>
             <ListGroup.Item className="Card-line">
+            <div className="Date-cont">
+                <p className="Date">21 de Nov. 13:00 hs.</p>
+              </div>
             <div className="Flag-cont">
                 <img
                   className="Flag"
@@ -60,6 +67,9 @@ function F_grupos() {
               </div>
             </ListGroup.Item>
             <ListGroup.Item className="Card-line">
+            <div className="Date-cont">
+                <p className="Date">25 de Nov. 10:00 hs.</p>
+              </div>
             <div className="Flag-cont">
                 <img
                   className="Flag"
@@ -81,6 +91,9 @@ function F_grupos() {
               </div>
             </ListGroup.Item>
             <ListGroup.Item className="Card-line">
+            <div className="Date-cont">
+                <p className="Date">25 de Nov. 13:00 hs.</p>
+              </div>
             <div className="Flag-cont">
                 <img
                   className="Flag"
@@ -102,6 +115,9 @@ function F_grupos() {
               </div>
             </ListGroup.Item>
             <ListGroup.Item className="Card-line">
+            <div className="Date-cont">
+                <p className="Date">29 de Nov. 12:00 hs.</p>
+              </div>
             <div className="Flag-cont">
                 <img
                   className="Flag"
@@ -123,6 +139,9 @@ function F_grupos() {
               </div>
             </ListGroup.Item>
             <ListGroup.Item className="Card-line">
+            <div className="Date-cont">
+                <p className="Date">29 de Nov. 12:00 hs.</p>
+              </div>
             <div className="Flag-cont">
                 <img
                   className="Flag"
@@ -1552,6 +1571,8 @@ function F_grupos() {
         </div>
       </Tab>
     </Tabs>
+
+    </div>
   );
 }
 

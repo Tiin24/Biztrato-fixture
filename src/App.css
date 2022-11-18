@@ -1,3 +1,9 @@
+:root {
+  --primary-color: #fff;
+  --bg-color: #28040e;
+  --bg-color-2: #91052a;
+}
+
 .App {
   text-align: center;
 }
@@ -21,32 +27,109 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: var(--primary-color);
 }
+
+.navbar  {
+  border-bottom: 1px solid var(--bg-color-2);
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-collapse a {
+  color: var(--primary-color);
+  font-weight: 400;
+}
+.dropdown-menu {
+  background-color: var(--bg-color);
+}
+
+.navbar-toggler {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.landing-container {
+  background: var(--bg-color); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--bg-color-2),
+    var(--bg-color)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--bg-color-2),
+    var(--bg-color)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
+.nav-tabs {
+  justify-content: center;
+  background-color: var(--bg-color-2);
+  border-color: var(--bg-color-2);
+  opacity:  0.9;
+  width: 100%;
+
+
+}
+
+.nav-tabs .nav-link {
+  color: var(--primary-color);
+  font-weight: 400;
+}
+
+
+.f_grupos-container {
+  background: var(--bg-color); /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    var(--bg-color-2),
+    var(--bg-color)
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    var(--bg-color-2),
+    var(--bg-color)
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 92vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-header {
+  background-color: var(--bg-color);
+  color: var(--primary-color);
+}
+
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
 .Card-matches {
   width: 40rem;
   margin: 3rem;
   float: left;
+  border-color: var(--bg-color);
 }
 
 .Card-positions {
   width: 31rem;
   margin: 3rem;
   float: left;
+  border-color: var(--bg-color);
 }
 
 .Card-title {
@@ -57,16 +140,34 @@
 .Card-line {
   text-align: center;
   background-color: rgb(226, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Flag-cont {
-  width: 6em;
+  width: 5em;
   float: left;
 }
 
+.Date-cont {
+  width: 5em;
+  float: left;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.Date {
+  margin: 0;
+}
+
 .Flag {
- height: 2em;
- width: 3.5em;
+  height: 2em;
+  width: 3.5em;
 }
 
 .Score-box {
@@ -76,15 +177,16 @@
 .Match {
   width: 8em;
   float: left;
+  font-weight: bold;
 }
 
 .Box {
   width: 8em;
   float: left;
+  font-weight: bold;
 }
 
 .Minibox {
   width: 2.5em;
   float: left;
 }
-

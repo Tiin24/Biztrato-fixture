@@ -6,9 +6,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
-      <Container>
-        <Navbar.Brand href="#home">FIFA WORLD CUP QATAR 2022</Navbar.Brand>
+    <Navbar expand="lg" style={{backgroundColor: '#28040E'}}>
+      <Container >
+        <Navbar.Brand href="#home"> <img src="https://i.imgur.com/MXvur8p.png" alt="logo" style={{width: '150px'}}/> </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
