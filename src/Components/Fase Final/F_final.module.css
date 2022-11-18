@@ -1,0 +1,56 @@
+.dynamic_winner{
+    display: flex;
+    background-color: red;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_eliminacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.dynamic_fixture{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.dynamic_fixture__octavos{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dynamic_fixture__cuartos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dynamic_fixture__semifinal{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dynamic_fixture__final{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.dynamic_fixture__tercer_cuarto{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
