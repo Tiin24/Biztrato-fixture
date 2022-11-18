@@ -36,3 +36,55 @@
     transform: rotate(360deg);
   }
 }
+
+.Card-matches {
+  width: 40rem;
+  margin: 3rem;
+  float: left;
+}
+
+.Card-positions {
+  width: 31rem;
+  margin: 3rem;
+  float: left;
+}
+
+.Card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.Card-line {
+  text-align: center;
+  background-color: rgb(226, 238, 238);
+}
+
+.Flag-cont {
+  width: 6em;
+  float: left;
+}
+
+.Flag {
+ height: 2em;
+ width: 3.5em;
+}
+
+.Score-box {
+  width: 3em;
+}
+
+.Match {
+  width: 8em;
+  float: left;
+}
+
+.Box {
+  width: 8em;
+  float: left;
+}
+
+.Minibox {
+  width: 2.5em;
+  float: left;
+}
+
